@@ -1,53 +1,137 @@
-:root{
-  --cor0: #3C3635 ;
+:root {
+  --cor0: #3C3635;
   --cor1: #915B50;
   --cor3: #BB5B48;
   --cor4: #E65133;
   --cor5: #664E49;
   --cor6: #332826;
-
 }
 
-header{
-  background-color:var(--cor0) ;
-  background-image:url(../imagens/bg.png);
-  background-position:center;
-  border:1px solid black;
-  padding:35px;
-
+.top {
+  background-color: var(--cor0);
+  background-image: url(../imagens/bg.png);
+  background-position: center;
+  border: 1px solid black;
+  padding: 35px;
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-right:50px;
 }
 
-h1{
+h1 {
   color: white;
 }
-.end{
-  color:white;
-  font-size:15px;
+
+h2 {
+  text-align: center;
+  margin-top: 9px;
+  margin-bottom: 6px;
 }
+
+.imgtop:hover {
+  transform: scale(1.1);
+}
+
+.imgtop {
+  transition: transform 0.5s ease;
+}
+
+.end {
+  color: white;
+  font-size: 15px;
+}
+
 .open {
-  background-color: greenyellow;
-  margin:0px 200px;
-  border:1px solid black;
-  border-radius:7px;
-
-  
- 
+  background-color: rgb(67, 104, 11);
+  margin: 0px 250px;
+  border: 1px solid black;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: rgb(255, 250, 250);
+  display: block;
 }
-  
 
-header > img{
-  width:8rem;
-  height:8rem;
-  clip-path: circle(50%)
-  
-  
-  
+header > img {
+  width: 8rem;
+  height: 8rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  object-fit: cover;
 }
-header > div{
+
+.imgtop {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+header > div {
   justify-content: center;
   align-items: center;
-  text-align:center;
+  text-align: center;
+}
 
+main {
+  position: absolute;
 
+}
+
+.Menu {
+  display:flex;
+  align-items: center;
+  position: relative;
+  margin-bottom:15px;
+  justify-content:center;
+  border:1px solid black;
+  border-radius:5px;
+
+}
+
+.imagem:hover {
+  transform: rotate(-2deg);
+  transition: transform 0.3s ease;
+}
+
+.imagem {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-left:5px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.name-hamburguer {
+  font-family: verdana;
+  margin-left: 20px;
+}
+
+.descricao-menu {
+  font-size: 15px;
+  margin-left: 20px;
+  text-align: center;
+  margin-right:15px;
   
+}
+.preco{
+  margin-right: 6px;
+  font-size:1.2em;
+}
+
+.ADD {
+  padding: 2px;
+  border-radius: 5px;
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
 }
