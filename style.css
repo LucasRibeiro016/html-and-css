@@ -1,0 +1,53 @@
+:root{
+  --cor0: #3C3635 ;
+  --cor1: #915B50;
+  --cor3: #BB5B48;
+  --cor4: #E65133;
+  --cor5: #664E49;
+  --cor6: #332826;
+
+}
+
+header{
+  background-color:var(--cor0) ;
+  background-image:url(../imagens/bg.png);
+  background-position:center;
+  border:1px solid black;
+  padding:35px;
+
+}
+
+h1{
+  color: white;
+}
+.end{
+  color:white;
+  font-size:15px;
+}
+.open {
+  background-color: greenyellow;
+  margin:0px 200px;
+  border:1px solid black;
+  border-radius:7px;
+
+  
+ 
+}
+  
+
+header > img{
+  width:8rem;
+  height:8rem;
+  clip-path: circle(50%)
+  
+  
+  
+}
+header > div{
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+
+
+  
+}
