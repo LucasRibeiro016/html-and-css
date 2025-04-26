@@ -1,0 +1,30 @@
+@media (max-width: 800px) {
+
+    .open{
+       width:15em;
+    }
+    .Menu{
+        flex-direction:column;
+
+
+
+    }
+    .Menu div:last-of-type{
+        width:100%;
+        flex-direction:row;
+        
+
+    }
+    .Menu div:last-of-type p{
+
+        display:inline;
+
+    }
+    .preco{
+        margin-right:10px;
+
+    }
+   
+}
+    
+
