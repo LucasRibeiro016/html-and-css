@@ -24,6 +24,16 @@
         margin-right:10px;
 
     }
+   .container{
+    flex-direction:column;
+    margin:auto;
+
+   }
+   .im2{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; 
+   }
    
 }
     
