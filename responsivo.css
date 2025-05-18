@@ -36,5 +36,39 @@
    }
    
 }
-    
+@media (max-width: 500px){
+.Menu{
+display:flex;
+flex-direction:column;
+background-color:brown;
+height:500px;
+}
+
+.preco{
+margin:auto;
+}
+
+.ADD{
+width:100px;
+height:40px;
+align-items:center;
+margin:auto;
+
+}
+.imagem{
+width:200px;
+height:200px;
+margin:0px;
+
+}
+.descricao-menu{
+margin:auto;
+font-size:1em;
+}
+.name-hamburguer{
+margin-top:-15px;
+}
+
+
+}
 
